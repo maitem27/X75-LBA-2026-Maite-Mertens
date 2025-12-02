@@ -83,11 +83,9 @@ p {
   display: inline-flex;
 }
 
-
 .main-background {
   backdrop-filter: blur(3px);
 }
-
 
 /* animation qui fait glisser le titre de la droite jusqu'au centre  */
 @keyframes slide {
@@ -106,8 +104,6 @@ p {
   color: var(--btn-color);
   text-shadow: 2px 2px 6px var(--main-color);
 }
-
-
 
 /*----- les 2 call to ation -----*/
 .cta-btn {
@@ -160,7 +156,3 @@ p {
 .links-button svg {
   padding: 10px;
 }
-
-
-
-
