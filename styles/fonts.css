@@ -1,0 +1,16 @@
+:root {
+    --main-font: 'Sunny Spells Basic';
+    --title-font: 'Sketch Checkin';
+}
+
+
+@font-face {
+  font-family: "Sunny Spells Basic";
+  src: url(../assets/fonts/SunnySpellsBasicRegular-Yz1Wv.ttf);
+}
+
+@font-face {
+  font-family: "Sketch Checkin";
+  src: url(../assets/fonts/SketchCheckinDemoVersion-R9LJW.otf);
+}
+

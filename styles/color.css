@@ -1,0 +1,12 @@
+:root {
+  /* turquoise */
+  --main-color: #0b6074;
+  /* turquoise plus clair */
+  --second-color: #aff7ff72;
+  /* argenté */
+  --btn-color: #C0C0C0;
+  /* blanc */
+  --shadow-color: white;
+  /* noir */
+  --text-color: rgb(0, 0, 0);
+}
