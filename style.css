@@ -20,6 +20,44 @@ header {
   align-items: center;
   justify-content: space-evenly;
 }
+/* contenu principal */
+main {
+  background-image: url(./assets/image/background\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* --------- bas de page--------- */
+footer {
+  background: linear-gradient(#aff7ff, #1f6472);
+  height: 3.125rem;
+}
+/* --------titre-------- */
+h1 {
+  font-family: var(--title-font);
+  text-align: center;
+  font-size: 2, 1rem;
+  text-shadow: 2px 2px 6px var(--shadow-color);
+  animation-duration: 3s;
+  animation-name: slide;
+}
+/* --------sous-titre-------- */
+h2 {
+  max-width: 12.5rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3.125rem;
+  font-size: 1.1rem;
+  text-shadow: 2px 2px 6px var(--shadow-color);
+}
+/* liens légaux */
+p {
+  color: var(--text-color);
+  padding: 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 6px var(--shadow-color);
+}
 
 /* ---menu burger, se connecter et s'inscrire---*/
 
@@ -44,27 +82,13 @@ header {
 .header-right {
   display: inline-flex;
 }
-/* contenu principal */
-main {
-  background-image: url(./assets/image/background\ image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 
 .main-background {
   backdrop-filter: blur(3px);
 }
 
-/* --------titre-------- */
-h1 {
-  font-family: var(--title-font);
-  text-align: center;
-  font-size: 2, 1rem;
-  text-shadow: 2px 2px 6px var(--shadow-color);
-  animation-duration: 3s;
-  animation-name: slide;
-}
+
 /* animation qui fait glisser le titre de la droite jusqu'au centre  */
 @keyframes slide {
   from {
@@ -76,50 +100,43 @@ h1 {
     width: 100%;
   }
 }
-
+/*--changement de couleur dans le titre--*/
 .span-title {
   font-family: var(--title-font);
   color: var(--btn-color);
   text-shadow: 2px 2px 6px var(--main-color);
 }
 
-/* --------sous-titre-------- */
-h2 {
-  max-width: 12.5rem;
-  text-align: center;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 3.125rem;
-  font-size: 1.1rem;
-  text-shadow: 2px 2px 6px var(--shadow-color);
-}
- /*----- les 2 call to ation -----*/
+
+
+/*----- les 2 call to ation -----*/
 .cta-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 4.5rem;
-  margin-bottom: 30px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
 }
 /* --------bouton télécharger-------- */
-.primary-button  {
+.primary-button {
   height: 2rem;
   width: 10rem;
   background-color: var(--second-color);
   border: 2px solid var(--text-color);
   border-radius: 8px;
   font-size: large;
+  text-transform: uppercase;
   box-shadow: 4px 4px 6px 4px;
   color: var(--main-color);
   border-color: var(--main-color);
-  padding: 10px;
+  padding: 0.5rem;
 }
 
 /* --------bouton réduction-------- */
 
-
-.secondary-button  {
+.secondary-button {
   height: 2rem;
   width: 8rem;
   background-color: var(--second-color);
@@ -129,7 +146,7 @@ h2 {
   box-shadow: 4px 4px 6px 4px;
   color: var(--main-color);
   border-color: var(--main-color);
-  padding: 10px;
+  padding: 0.5rem;
 }
 
 /* liens réseaux sociaux: telegram, mastodon et Bluesky */
@@ -137,22 +154,13 @@ h2 {
   display: flex;
   justify-content: space-evenly;
 
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .links-button svg {
   padding: 10px;
 }
 
-/* --------- bas de page--------- */
-footer {
-  background: linear-gradient(#aff7ff, #1f6472);
-  height: 3.125rem;
-}
-/* liens légaux */
-p {
-  color: var(--text-color);
-  padding: 2rem;
-  text-align: center;
-  text-shadow: 2px 2px 6px var(--shadow-color);
-}
+
+
+
