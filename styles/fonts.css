@@ -1,7 +1,7 @@
 :root {
     /* -----type de font----- */
-    --main-font: 'Sunny Spells Basic';
-    --title-font: 'Sketch Checkin';
+    --main-font: 'Sunny Spells Basic', serif;
+    --title-font: 'Sketch Checkin', Arial;
     /* ----taille de font---- */
     --title-font-size: 2rem;
     --subtitle-font-size: 1.1rem;
@@ -10,12 +10,12 @@
 
 
 @font-face {
-  font-family: "Sunny Spells Basic", serif;
+  font-family: "Sunny Spells Basic";
   src: url(../assets/fonts/SunnySpellsBasicRegular-Yz1Wv.ttf);
 }
 
 @font-face {
-  font-family: "Sketch Checkin", serif;
+  font-family: "Sketch Checkin";
   src: url(../assets/fonts/SketchCheckinDemoVersion-R9LJW.otf);
 }
 

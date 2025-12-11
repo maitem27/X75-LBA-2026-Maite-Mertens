@@ -117,6 +117,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   margin-top: var(--spacing-m);
   margin-bottom: var(--spacing-sm);
   gap: var(--spacing-xsm);
