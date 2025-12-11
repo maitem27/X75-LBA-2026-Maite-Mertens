@@ -8,8 +8,8 @@
 }
 html,
 body {
-  max-height: 100vh;
-  max-width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 /* -----haut du site (navbar)----- */
 header {
