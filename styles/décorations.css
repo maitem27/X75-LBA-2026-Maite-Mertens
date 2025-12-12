@@ -5,4 +5,7 @@
     /* ----ombre des boutons---- */
     --box-shadow: 4px 4px 6px 4px;
 
+    /* ombre des texte  */
+    --text-shadow: 2px 2px 6px;
+
 }
