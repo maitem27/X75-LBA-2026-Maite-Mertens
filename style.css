@@ -71,6 +71,10 @@ p {
   display: inline-flex;
   text-align: center;
   align-items: center;
+  transition: 0.3s;
+}
+.header-btn:active {
+  background-color: var(--second-color) ;
 }
 
 
